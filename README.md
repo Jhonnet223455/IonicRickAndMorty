@@ -40,42 +40,6 @@ ionic serve
 
 Esto abrirá la app en el navegador en http://localhost:8100/.
 
-📂 Estructura del Proyecto
-
-📦 tu-repositorio
-├── 📂 src
-│   ├── 📂 app
-│   │   ├── 📂 pages
-│   │   │   ├── 📂 episodes (Lista de episodios)
-│   │   │   ├── 📂 episode-detail (Detalles de un episodio)
-│   │   ├── 📂 services (Servicios para consumir la API)
-│   ├── 📂 assets (Recursos estáticos)
-│   ├── 📂 environments (Configuración de entornos)
-├── 📜 package.json (Dependencias y scripts)
-├── 📜 README.md (Este archivo 📄)
-
-📡 API Usada
-
-El proyecto consume la API de Rick and Morty:
-
-Lista de episodios: https://rickandmortyapi.com/api/episode
-
-Detalles de un episodio: https://rickandmortyapi.com/api/episode/{id}
-
-Personajes de un episodio: Cada episodio tiene una lista de URLs de personajes.
-
-Ejemplo de estructura de respuesta:
-
-{
-  "id": 1,
-  "name": "Pilot",
-  "air_date": "December 2, 2013",
-  "episode": "S01E01",
-  "characters": [
-    "https://rickandmortyapi.com/api/character/1",
-    "https://rickandmortyapi.com/api/character/2"
-  ]
-}
 
 ⚡ Funcionalidades
 
