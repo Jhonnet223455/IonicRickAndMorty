@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Episodios</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let episode of episodes" (click)="openEpisode(episode)">
+      <ion-label>
+        <h2>{{ episode.name }}</h2>
+        <p>{{ episode.episode }} - {{ episode.air_date }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
